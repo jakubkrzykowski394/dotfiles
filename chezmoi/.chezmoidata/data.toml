@@ -1,14 +1,14 @@
 [git]
-    name = "Stefan Schulte"
-    email = "github@stefanschulte.dev"
+    name = "Jakub Krzykowski"
+    email = "jakub.krzykowski@viega.de"
 
 # Signing git commits with your SSH key
 [git.sshsigning]
     enabled = true
-    signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHPdYeu7Ag9LRTOedk71jeGZ0QjQMCoHiQsVbsYpUR8R"
+    signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEWU+Tb3ZnRwgVcK9ZRIr7+qhRnKziTxWq5c7WjPvpnB"
 
 [ssh]
-    default_username = "schultes"
+    default_username = "krzykowskij"
 
 # Komorebi is a tiling window manager for Microsoft Windows
 [feature.komorebi]

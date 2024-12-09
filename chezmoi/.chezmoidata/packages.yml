@@ -68,21 +68,6 @@ packages:
         store_id: GitHub.cli
         source: winget
         allowPrerelease: false
-      - id: Slack
-        description: Install Slack
-        store_id: SlackTechnologies.Slack
-        source: winget
-        allowPrerelease: false
-      - id: Spotify
-        description: Install Spotify
-        store_id: Spotify.Spotify
-        source: winget
-        allowPrerelease: false
-      - id: Wireshark
-        description: Install Wireshark
-        store_id: WiresharkFoundation.Wireshark
-        source: winget
-        allowPrerelease: false
       - id: Bruno
         description: Install Bruno API client
         store_id: Bruno.Bruno
@@ -99,84 +84,84 @@ packages:
     # - private device used for work: YES
     # - private device: NO
     company_extended:
-      - id: MS Company Portal
-        description: Install MS Company Portal
-        store_id: 9WZDNCRFJ3PZ
-        source: msstore
-        allowPrerelease: false
-      - id: MS Teams
-        description: Install MS Teams
-        store_id: Microsoft.Teams
-        source: winget
-        allowPrerelease: false
-      - id: MS Office
-        description: Install MS Office Enterprise
-        store_id: Microsoft.Office
-        source: winget
-        allowPrerelease: false
-      - id: MS OneDrive
-        description: Install MS OneDrive
-        store_id: Microsoft.OneDrive
-        source: winget
-        allowPrerelease: false
+      # - id: MS Company Portal
+      #   description: Install MS Company Portal
+      #   store_id: 9WZDNCRFJ3PZ
+      #   source: msstore
+      #   allowPrerelease: false
+      # - id: MS Teams
+      #   description: Install MS Teams
+      #   store_id: Microsoft.Teams
+      #   source: winget
+      #   allowPrerelease: false
+      # - id: MS Office
+      #   description: Install MS Office Enterprise
+      #   store_id: Microsoft.Office
+      #   source: winget
+      #   allowPrerelease: false
+      # - id: MS OneDrive
+      #   description: Install MS OneDrive
+      #   store_id: Microsoft.OneDrive
+      #   source: winget
+      #   allowPrerelease: false
       - id: MS Storage Explorer
         description: Install MS Azure Storage Explorer
         store_id: Microsoft.Azure.StorageExplorer
         source: winget
         allowPrerelease: false
-      - id: Microsoft Edge
-        description: Install Microsoft Edge
-        store_id: Microsoft.Edge
-        source: winget
-        allowPrerelease: false
+      # - id: Microsoft Edge
+      #   description: Install Microsoft Edge
+      #   store_id: Microsoft.Edge
+      #   source: winget
+      #   allowPrerelease: false
     # Private applications that are NOT installed on company owned devices, but will be installed on private devices, and private devices used for work.
     # Installed on:
     # - company owned device: NO
     # - private device used for work: YES
     # - private device: YES
     private:
-      - id: Brave browser
-        description: Install Brave browser
-        store_id: Brave.Brave
-        source: winget
-        allowPrerelease: false
-      - id: Obsidian
-        description: Install Obsidian
-        store_id: Obsidian.Obsidian
-        source: winget
-        allowPrerelease: false
-      - id: Discord
-        description: Install Discord
-        store_id: Discord.Discord
-        source: winget
-        allowPrerelease: false
-      - id: VLC
-        description: Install VLC
-        store_id: VideoLAN.VLC
-        source: winget
-        allowPrerelease: false
-      - id: Jellyfin player
-        description: Install Jellyfin player
-        store_id: Jellyfin.JellyfinMediaPlayer
-        source: winget
-        allowPrerelease: false
-      - id: Komorebi
-        description: Install Komorebi - tiling window manager for Windows
-        store_id: LGUG2Z.komorebi
-        source: winget
-        allowPrerelease: false
-      - id: WHKD
-        description: Install WHKD - windows hotkey daemon
-        store_id: LGUG2Z.whkd
-        source: winget
-        allowPrerelease: false
-      - id: Snagit 2022
-        description: Install Snagit2022 snipping tool
-        store_id: TechSmith.Snagit.2022
-        source: winget
-        allowPrerelease: false
-      - id: Steam
-        description: Install Steam
-        store_id: Valve.Steam
-        source: winget
-        allowPrerelease: false
+    #   - id: Brave browser
+    #     description: Install Brave browser
+    #     store_id: Brave.Brave
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Obsidian
+    #     description: Install Obsidian
+    #     store_id: Obsidian.Obsidian
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Discord
+    #     description: Install Discord
+    #     store_id: Discord.Discord
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: VLC
+    #     description: Install VLC
+    #     store_id: VideoLAN.VLC
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Jellyfin player
+    #     description: Install Jellyfin player
+    #     store_id: Jellyfin.JellyfinMediaPlayer
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Komorebi
+    #     description: Install Komorebi - tiling window manager for Windows
+    #     store_id: LGUG2Z.komorebi
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: WHKD
+    #     description: Install WHKD - windows hotkey daemon
+    #     store_id: LGUG2Z.whkd
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Snagit 2022
+    #     description: Install Snagit2022 snipping tool
+    #     store_id: TechSmith.Snagit.2022
+    #     source: winget
+    #     allowPrerelease: false
+    #   - id: Steam
+    #     description: Install Steam
+    #     store_id: Valve.Steam
+    #     source: winget
+    #     allowPrerelease: false
